@@ -2,8 +2,8 @@
 <addons>
 <addon id="plugin.program.cf.test"
 	name="[COLOR red]Cloudflare TEST[/COLOR]"
-	version="1.0.0"
-	provider-name="Loki1979">
+	version="1.0.1"
+	provider-name="Loki1979/ka">
     <requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.cloudscraper" version="1.2.3"/>
@@ -21,6 +21,9 @@
 		<language></language>
 		<source></source>
 		<email></email>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
 	</extension>
 </addon>
 
