@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.cfscrape"
+       name="cfscrape"
+       version="2019.10.16"
+       provider-name="privateship">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.js2py" version="0.60"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <website>https://github.com/VeNoMouS/cloudscraper</website>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE.</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>

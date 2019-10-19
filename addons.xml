@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.infinity" name="Infinity Repository" version="1.0.0" provider-name="Infinity-Team">
+    <extension point="xbmc.addon.repository" name="Infinity Repository">
+        <info compressed="false">https://raw.github.com/deepship/InfinityRepo/master/addons.xml</info>
+        <checksum>https://raw.github.com/deepship/InfinityRepo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/deepship/InfinityRepo/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Metadaten für Infinity Repository</summary>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.module" name="module Repository" version="1.0.0" provider-name="module-Team">
+    <extension point="xbmc.addon.repository" name="module Repository">
+        <info compressed="false">https://raw.github.com/kasi45/RepoModule/master/addons.xml</info>
+        <checksum>https://raw.github.com/kasi45/RepoModule/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/kasi45/RepoModule/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Script Module für Kodi</summary>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.brotli"
+       name="brotli"
+       version="1.0.7"
+       provider-name="Brotli">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python bindings for the Brotli compression library.</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/google/brotli.</description>
+    <license>MIT</license>
+    <website>https://github.com/google/brotli</website>
+    <source>https://github.com/google/brotli</source>
+    <email>https://groups.google.com/forum/#!forum/brotli</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.cfscrape"
+       name="cfscrape"
+       version="2019.10.16"
+       provider-name="privateship">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.js2py" version="0.60"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <website>https://github.com/VeNoMouS/cloudscraper</website>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE.</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.cloudscraper"
+     name="cloudscraper"
+     version="1.2.3"
+     provider-name="VeNoMouS">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0" />
+    <import addon="script.module.js2py" version="0.60"/>
+    <import addon="script.module.requests" version="2.9.2"/>
+    <import addon="script.module.requests_toolbelt" version="0.9.1"/>
+    <import addon="script.module.brotli" version="1.0.7"/>
+    <import addon="script.module.pyopenssl" version="17.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description></description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE.</license>
+    <forum></forum>
+    <website>https://github.com/VeNoMouS/cloudscraper</website>
+    <email></email>
+    <source></source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.js2py" name="js2py" version="0.66" provider-name="Addons4Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.six" version="1.10.0"/>
+    <import addon="script.module.pyjsparser" version="2.5.1"/>
+    <import addon="script.module.tzlocal" version="1.2.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/Js2Py</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/PiotrDabkowski/Js2Py</website>
+    <source>https://github.com/PiotrDabkowski/Js2Py</source>
+    <email>piodrus@gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.pyjsparser" name="pyjsparser" version="2.7.1" provider-name="Addons4Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
+    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
+    <email></email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.pyopenssl"
+     name="pyopenssl"
+     version="19.0.0"
+     provider-name="pyOpenSSL">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python wrapper module around the OpenSSL library</summary>
+    <description></description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>Apache License, Version 2.0.</license>
+    <forum></forum>
+    <website>https://pyopenssl.org/</website>
+    <email></email>
+    <source></source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.requests-toolbelt"
+       name="requests-toolbelt"
+       version="0.9.1"
+       provider-name="Ian Cordasco, Cory Benfield">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.0.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">A utility belt for advanced users of python-requests.</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/requests/toolbelt</description>
+    <license>Apache 2.0</license>
+    <website>https://toolbelt.readthedocs.org</website>
+    <source>https://github.com/requests/toolbelt</source>
+    <email>graffatcolmingov@gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+</addons>
