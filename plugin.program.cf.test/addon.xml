@@ -5,7 +5,8 @@
     provider-name="Loki1979/ka">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.cloudscraper" version="1.2.3"/>
+        <!--<import addon="script.module.cloudscraper" version="1.2.3"/>-->
+        <import addon="script.module.cloudscraper-dev" version="1.2.3"/>
         <import addon="script.module.cfscrape" version="2019.10.16"/>
         <import addon="script.module.pydevd-pycharm"/>
     </requires>

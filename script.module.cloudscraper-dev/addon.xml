@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.cloudscraper-dev" 
+     name="cloudscraper-dev" 
+     version="1.2.4" 
+     provider-name="VeNoMouS">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0" />
+    <import addon="script.module.js2py" version="0.60"/>
+    <import addon="script.module.requests" version="2.9.2"/>
+    <import addon="script.module.requests_toolbelt" version="0.9.1"/>
+    <import addon="script.module.brotli" version="1.0.7"/>
+    <import addon="script.module.pyopenssl" version="17.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>"cloudscraper-dev" with pyopenssl</summary>
+    <description></description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE.</license>
+    <forum></forum>
+    <website>https://github.com/VeNoMouS/cloudscraper</website>
+    <email></email>
+    <source></source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>

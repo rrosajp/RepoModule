@@ -9,11 +9,11 @@
     <import addon="script.module.requests" version="2.9.2"/>
     <import addon="script.module.requests_toolbelt" version="0.9.1"/>
     <import addon="script.module.brotli" version="1.0.7"/>
-    <import addon="script.module.pyopenssl" version="17.0"/>
+    <!--<import addon="script.module.pyopenssl" version="17.0"/>-->
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary></summary>
+    <summary>"cloudscraper" without pyopenssl</summary>
     <description></description>
     <disclaimer></disclaimer>
     <language></language>
