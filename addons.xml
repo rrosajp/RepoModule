@@ -256,8 +256,8 @@
   </extension>
 </addon>
 
-<addon id="script.module.requests-toolbelt"
-       name="requests-toolbelt"
+<addon id="script.module.requests_toolbelt"
+       name="requests_toolbelt"
        version="0.9.1"
        provider-name="Ian Cordasco, Cory Benfield">
   <requires>
